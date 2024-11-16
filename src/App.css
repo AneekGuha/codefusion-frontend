@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding:  0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+body.light-mode {
+  background-color: #f5f5f5;
+  color: #000000;
+}
+.light-mode .navbar {
+  background-color: #ffffff;
+}
+.light-mode .dropDownNavbar {
+  background-color: #e0e0e0;
+}
+
+body.light-mode .gridCard,
+body.light-mode .listCard {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #e0e0e0;
+}
+
+body.light-mode .inputBox {
+  background-color: #00AEEF;
+  color: #000000;
+  border: 1px solid #e0e0e0;
+}
+
+body.light-mode .inputBox input::placeholder {
+  color: #ffffff;
+}
+html{
+    overflow-x: hidden;
+}
+.inputBox{
+    width: 100%;
+    background-color: #141414;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .inputBox input{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .btnBlue{
+    background-color: #00AEEF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .btnBlue:hover{
+    background-color: #0086b3;
+  }
+  .grid{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 25px;
+  }
+  
+  .lightMode{
+    background-color: #fff !important;
+    color: #000 !important;
+  };
+  
+  
+  .lightMode .navbar{
+    background-color: #fff;
+  }
+  
+  .lightMode .tabs{
+    background-color: #f7f7f7;
+  }
+  .lightMode .tabs .tab{
+    background-color: #c2c1c1;
+    color: #000;
+  }
+  
+  .lightMode .btn{
+    background-color: #C2C1C1;
+    color: #000;
+  }
+
+.right{
+  position: relative;
+  width: 55%;
+  right: -120px;
+}
