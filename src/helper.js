@@ -11,4 +11,4 @@ export const removeClass = (el,className) => {
 };
 
 
-export const api_base_url = "https://codefusion-backend.vercel.app"
+export const api_base_url = "https://codefusion-backend-p56j.onrender.com"
